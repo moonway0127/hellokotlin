@@ -1,4 +1,4 @@
-package xin.moonway.string
+package xin.moonway.foundation.string
 
 fun main(args: Array<String>) {
     var s1 = "hello \n world"
