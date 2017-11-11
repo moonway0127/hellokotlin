@@ -1,4 +1,4 @@
-package xin.moonway.foundation.string
+package xin.moonway.foundation._4_string
 
 fun main(args: Array<String>) {
     val i =10

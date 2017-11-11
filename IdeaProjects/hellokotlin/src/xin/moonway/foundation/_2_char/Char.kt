@@ -1,4 +1,4 @@
-package xin.moonway.foundation.char
+package xin.moonway.foundation._2_char
 
 fun decimalDigitValue(a: Char):Int{
     if(a !in '0'..'9'){
