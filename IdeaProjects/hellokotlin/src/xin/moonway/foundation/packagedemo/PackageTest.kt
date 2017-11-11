@@ -9,5 +9,6 @@ fun main(args: Array<String>) {
     println(xin.moonway.foundation.packagedemo.Myclass())
     println(getName())
     println(Myclass())
+
     println(f())
 }
