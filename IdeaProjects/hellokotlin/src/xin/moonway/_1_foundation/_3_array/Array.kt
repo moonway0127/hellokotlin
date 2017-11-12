@@ -1,4 +1,4 @@
-package xin.moonway.foundation._3_array
+package xin.moonway._1_foundation._3_array
 
 
 fun main(args: Array<String>) {
