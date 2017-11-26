@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._9_for
+package xin.moonway._01_foundation._09_for
 
 fun main(args: Array<String>) {
     var arr = intArrayOf(2, 4, 6, 8, 10)

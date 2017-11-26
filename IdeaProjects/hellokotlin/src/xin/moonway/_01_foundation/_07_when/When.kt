@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._7_when
+package xin.moonway._01_foundation._07_when
 
 fun main(args: Array<String>) {
     var x = 1

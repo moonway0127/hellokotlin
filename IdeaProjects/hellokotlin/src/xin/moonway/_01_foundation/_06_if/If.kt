@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._6_if
+package xin.moonway._01_foundation._06_if
 
 fun main(args: Array<String>) {
     //标准条件

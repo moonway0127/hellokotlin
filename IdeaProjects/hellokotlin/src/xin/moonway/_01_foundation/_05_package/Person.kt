@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._5_package
+package xin.moonway._01_foundation._05_package
 
 fun getName():String{
     return "moonway"

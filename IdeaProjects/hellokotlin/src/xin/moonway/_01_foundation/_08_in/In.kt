@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._8_in
+package xin.moonway._01_foundation._08_in
 
 fun main(args: Array<String>) {
     var n = 25

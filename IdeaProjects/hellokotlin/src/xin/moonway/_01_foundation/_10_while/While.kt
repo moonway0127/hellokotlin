@@ -1,4 +1,4 @@
-package xin.moonway._1_foundation._10_while
+package xin.moonway._01_foundation._10_while
 
 fun main(args: Array<String>) {
     var i = 0
