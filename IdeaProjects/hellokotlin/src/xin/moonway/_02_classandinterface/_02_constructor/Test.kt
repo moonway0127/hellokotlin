@@ -7,4 +7,6 @@ fun main(args: Array<String>) {
     TestClass(100)
     TestClass("boom","https://www.moonway.xin")
     TestClass()
+    var a = TestClass(30)
+    println(a.a)
 }
