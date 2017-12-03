@@ -39,5 +39,13 @@ fun main(args: Array<String>) {
     println(data1)
     println(data2)
     println(data1.equals(data2))
+    println("-------------------------------------------------------")
+    //复制
+    var  orderData1 = data1.copy(age = 60)
+    println(orderData1)
+
+    var(name,age) = data1
+
+    println("$name,$age years of age")
 
 }
