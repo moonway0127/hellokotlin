@@ -1,4 +1,4 @@
-package xin.moonway._05_Generics._02_bianyi
+package xin.moonway._05_Generics._02_variation
 abstract class Source<out T>{
     abstract fun nextT():T
 }
