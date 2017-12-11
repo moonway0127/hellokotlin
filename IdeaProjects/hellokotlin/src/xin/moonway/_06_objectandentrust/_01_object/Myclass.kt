@@ -7,6 +7,10 @@ open class MyClass(name: String){
     open fun verify(){
         println("verify")
     }
+
+    companion object {
+        fun create():MyClass = MyClass("Bill")
+    }
 }
 
 
@@ -81,5 +85,7 @@ fun main(args: Array<String>) {
             }
         }
     })
+
+    val instance = MyClass.create()
 
 }
