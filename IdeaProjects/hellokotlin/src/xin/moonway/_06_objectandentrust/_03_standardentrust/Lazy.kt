@@ -23,4 +23,7 @@ fun main(args: Array<String>) {
     var user = User()
     user.name = "Bill"
     user.name = "John"
+
+
+
 }
