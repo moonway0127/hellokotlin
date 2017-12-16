@@ -8,14 +8,31 @@ val lazyValue:String by lazy{
     "hello"
 }
 
-
-
+//可观察属性
 class User{
     var name :String by Delegates.observable("Mike"){
         property, oldValue, newValue ->
         println(oldValue+"   "+newValue)
     }
 }
+
+
+//阻止属性的赋值操作
+class User1{
+    var name:String by Delegates.vetoable("Mike"){
+        property, oldValue, newValue ->
+        println("old:$oldValue,new:$newValue")
+        var result = true
+        //Name属性值不能是mary
+        if(newValue.equals("Mary")){
+            result = false
+            println("name 不能是mary")
+
+        }
+        result
+    }
+}
+
 
 fun main(args: Array<String>) {
     println(lazyValue)
@@ -24,6 +41,10 @@ fun main(args: Array<String>) {
     user.name = "Bill"
     user.name = "John"
 
-
+    var user1 = User1()
+    user1.name = "Bill"
+    println(user1.name)
+    user1.name = "Mary"
+    println(user1.name)
 
 }
