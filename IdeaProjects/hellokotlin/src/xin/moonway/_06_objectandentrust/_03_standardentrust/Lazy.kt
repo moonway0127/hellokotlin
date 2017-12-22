@@ -17,6 +17,8 @@ class User{
 }
 
 
+
+
 //阻止属性的赋值操作
 class User1{
     var name:String by Delegates.vetoable("Mike"){
